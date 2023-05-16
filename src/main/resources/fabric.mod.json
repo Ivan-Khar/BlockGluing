@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "blockgluing",
+  "version": "${version}",
+
+  "name": "Block Gluing",
+  "description": "",
+  "authors": [
+    "Aquatic"
+  ],
+  "contact": {
+    "homepage": "https://theaq.one/",
+    "sources": "https://github.com/Ivan-Khar"
+  },
+
+  "license": "CC BY-NC 3.0",
+  "icon": "assets/blockgluing/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.aquatic.blockgluing.Main"
+    ]
+  },
+  "mixins": [
+    "blockgluing.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "rayon": ">=1.7.0"
+  }
+}
